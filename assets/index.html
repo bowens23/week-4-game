@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<title>Fight Game
+</title>
+
+<body>
+<h1>
+SpaceWars!
+</h1>
+
+<div class="row" id="choices">
+
+	<div class = "col-md-2 choose" id="Andromeda" value="80">
+		<p class="captionTop"> Andromeda</p>
+	<img src="images/Andromeda.jpg">
+	<p class="points">80</p>
+	</div>
+	
+	<div class ="col-md-2 choose" id="BlackHole" value="50">
+		<p class="captionTop">BlackHole</p>
+		<img src="images/BlackHole.jpg">
+			<p class="points">50</p>
+	</div>
+	
+	<div class ="col-md-2 choose" id="Earth" value="15">
+		<p class="captionTop">Earth</p>
+		<img src="images/Earth.jpg">
+			<p class="points">15</p>
+	</div>
+
+	<div class ="col-md-2 choose" id="Saturn" value="70">
+		<p class="captionTop">Saturn</p>
+		<img src="images/Saturn.jpg">
+			<p class="points">70</p>
+	</div>
+
+	<div class="col-md-2 choose" id="Sun" value="75">
+		<p class="captionTop">Sun</p>
+		<img src="images/Sun.jpg">
+		<p class="points">75</p>
+	</div>
+
+
+
+
+</div>
+<div class="row" id="chosen">
+<h2 class="col-md-12">Your Choice</h2>
+</div>
+
+<div class="row" id="attackers">
+
+<h2>Attackers</h2>
+</div>
+
+</div>
+
+<h2>Fight Section</h2>
+<button id="attack">Attack</button>
+</div>
+
+<div class="row" id="defender">
+
+<h2>Defender</h2>
+</div>
+
+<!---<div id="score" class ="h3" style="color:white"> Score </div>-->
+<div id="yourDamage" class ="h3" style="color:white"> </div>
+<div id="theirDamage" class ="h3" style="color:white"> </div>
+
+<button id="reset">  </button>
+
+<div id=losingMessage class=h3 style="color:white"> </div>
+
+<style type="text/css"></style>
+
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+ <script src="javascript/game.js"></script>
+</body>
+</html>
